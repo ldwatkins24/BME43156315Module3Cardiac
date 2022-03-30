@@ -76,7 +76,7 @@ dbcl = -J9+J10;
 dISR = -J10; 
 dNICD = -J11 + J12; 
 dJaggedNotch = -J12;
-dcas367 = -J4-J5;
+dcas367 = J4+J5;
 
 dydt = [dESR; dFADD; dprocas8; dESR_FADD; dprocas8_ESR_FADD; dE; dcas8; dcas9; dcytc; dbax_bak; dbax; dbak; dbcl; dISR; dNICD; dJaggedNotch; dcas367];
 algvars = [J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12];
